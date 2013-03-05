@@ -6,5 +6,10 @@ node default {
 }
 
 node mysql inherits default {
+	include system::users::ssh_keys
 	include system::software::db
+}
+
+node ubuntu inherits default {
+	include motd
 }
