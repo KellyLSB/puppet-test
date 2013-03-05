@@ -6,5 +6,5 @@ class system::software {
 }
 
 class system::software::db {
-	package { "mysql": ensure => installed }
+	package { "mysql-server": ensure => installed }
 }
