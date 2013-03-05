@@ -1,16 +1,16 @@
 class system::users {
-	user { 'user-kellylsb': 
+	user { 'Kelly Becker': 
 		ensure => present,
-		name => "Kelly Becker";
+		name => "kellylsb";
 	}
 
-	user { 'user-rneuding': 
+	user { 'Robert Neuding': 
 		ensure => present,
-		name => "Robert Neuding";
+		name => "rneuding";
 	}
 
-	user { 'dawn-tierney': 
+	user { 'Dawn Tierney': 
 		ensure => present,
-		name => "Dawn Tierny";
+		name => "dtierney";
 	}
 }

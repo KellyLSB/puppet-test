@@ -1,7 +1,7 @@
 class system::software {
 	package { 'nginx': ensure => installed }
 	package { 'ruby': ensure => installed }
-	package { 'php': ensure => installed }
+	package { 'php5': ensure => installed }
 	package { 'znc': ensure => installed }
 }
 
