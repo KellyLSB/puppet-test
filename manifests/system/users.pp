@@ -1,18 +1,18 @@
 class system::users {
 	user { 'Kelly Becker': 
-		ensure => absent,
+		ensure => present,
 		managehome => '/home/kellylsb',
 		name => "kellylsb";
 	}
 
 	user { 'Robert Neuding': 
-		ensure => absent,
+		ensure => present,
 		managehome => '/home/rneuding',
 		name => "rneuding";
 	}
 
 	user { 'Dawn Tierney': 
-		ensure => absent,
+		ensure => present,
 		managehome => '/home/dtierney',
 		name => "dtierney";
 	}
